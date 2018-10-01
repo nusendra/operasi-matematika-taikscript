@@ -10,4 +10,8 @@ export default class Operator {
   public tambah(): number {
     return this.nilaiAwal + this.nilaiKedua;
   }
+
+  public kurang() {
+    return this.nilaiAwal - this.nilaiKedua;
+  }
 }
