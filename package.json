@@ -1,0 +1,15 @@
+{
+  "name": "hacktoberfest-math-operator",
+  "version": "1.0.0",
+  "description": "Haktoberfest - Operator Matematika dengan TypeScript",
+  "main": "index.js",
+  "author": "Nusendra Hanggarawan",
+  "license": "MIT",
+  "private": null,
+  "scripts": {
+    "ts": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.1"
+  }
+}
