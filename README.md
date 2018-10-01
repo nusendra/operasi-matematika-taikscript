@@ -20,7 +20,7 @@ file `index.ts` fungsi ne gawe menjalankan app, sedangkan file `src/operator.ts`
 
 Buka 2 terminal, ojok akeh akeh, gawe opo nek akeh akeh, wong butuh e mek 2 tok kok.
 
-1. Terminal pertama, Ketik `yarn ts`, mengko muncul folder anyar sing jeneng e `build`. Nah mengko running e nang njero folder build kuwi. Terminal pertama iki dia `watch` file, fungsi ne yen ono perubahan file, maka di compile nang native js di folder build.
+1. Terminal pertama, Ketik `yarn ts` utawa `npm run ts`, mengko muncul folder anyar sing jeneng e `build`. Nah mengko running e nang njero folder build kuwi. Terminal pertama iki dia `watch` file, fungsi ne yen ono perubahan file, maka di compile nang native js di folder build.
 2. Terminal kedua, Ketik `node build` gawe ngetes app 'e
 
 ## 4. Cara Nggawe ne
