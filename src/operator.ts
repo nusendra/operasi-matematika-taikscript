@@ -7,7 +7,7 @@ export default class Operator {
     this.nilaiKedua = nilaiKedua;
   }
 
-  public tambah() {
+  public tambah(): number {
     return this.nilaiAwal + this.nilaiKedua;
   }
 }

@@ -1,16 +1,20 @@
 # Operasi Matematika dengan TaikScript
 
 ## 1. Cara Nginstall
-```
+
+```terminal
 yarn install
 ```
+
 nek gawe npm
-```
+
+```terminal
 npm install
 ```
 
 ## 2. Cara Ngoding e
-file `index.ts` fungsi ne gawe menjalankan app, sedangkan file `src/operator.ts` library ne. 
+
+file `index.ts` fungsi ne gawe menjalankan app, sedangkan file `src/operator.ts` library ne.
 
 ## 3. Cara Njalakno ne
 
