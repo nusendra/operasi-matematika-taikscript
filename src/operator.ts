@@ -11,7 +11,7 @@ export default class Operator {
     return this.nilaiAwal + this.nilaiKedua;
   }
 
-  public kurang() {
+  public kurang(): number {
     return this.nilaiAwal - this.nilaiKedua;
   }
   

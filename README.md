@@ -1,29 +1,33 @@
-# Operasi Matematika dengan TaikScript
+# Operasi Matematika dengan TypeScript
 
-## 1. Cara Nginstall
+`Repo ini untuk memperingati acara HacktoberFest. Silakan berkontribusi di repo sederhana ini.`
+
+## Instalasi
+
+Pastikan sudah install Nodejs dan NPM yaaa.
 
 ```terminal
 yarn install
 ```
 
-nek gawe npm
+atau
 
 ```terminal
 npm install
 ```
 
-## 2. Cara Ngoding e
+## Cara Ngoding nya
 
-file `index.ts` fungsi ne gawe menjalankan app, sedangkan file `src/operator.ts` library ne.
+file `index.ts` berfungsi untuk menjalankan atau mengetes library kita, sedangkan file `src/operator.ts` ini sebagai library nya. Jadi nanti kalian bisa berkontribusi di file `operator.ts` ini.
 
-## 3. Cara Njalakno ne
+## Cara Menjalankan
 
-Buka 2 terminal, ojok akeh akeh, gawe opo nek akeh akeh, wong butuh e mek 2 tok kok.
+Buka 2 terminal, yang pertama untuk menjalankan compiler typescript dengan mode watch, yang kedua untuk mencoba menjalankan app kita.
 
-1. Terminal pertama, Ketik `yarn ts` utawa `npm run ts`, mengko muncul folder anyar sing jeneng e `build`. Nah mengko running e nang njero folder build kuwi. Terminal pertama iki dia `watch` file, fungsi ne yen ono perubahan file, maka di compile nang native js di folder build.
-2. Terminal kedua, Ketik `node build` gawe ngetes app 'e
+1. Terminal pertama, Ketik `yarn ts` atau `npm run ts`, nanti akan muncul sebuah folder yang bernama `build`. Nah nanti untuk menjalankan app kita bisa melalui folder ini. Terminal pertama ini dia mode `watch`, fungsi nya jika ada perubahan kode maka typescript secara otomatis akan mengkompilasi file `ts` menjadi `js` native (di folder build).
+2. Terminal kedua, Ketik `node build` untuk mencoba menjalankan app kita
 
-## 4. Cara Nggawe ne
+## Cara Menggunakan
 
 ```javascript
 import Operator from './src/operator';
@@ -32,9 +36,9 @@ const hitung = new Operator(5, 2);
 console.log(hitung.tambah());
 ```
 
-## 5. Nek bingung yoopo mas?
+## Bingung Gimana Caranya? 
 
-Chat ae nang grup telekgram
+https://t.me/nusendra
 
 ## 6. Contact
 
