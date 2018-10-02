@@ -22,4 +22,8 @@ export default class Operator {
   public bagi(): number {
     return this.nilaiAwal / this.nilaiKedua
   }
+
+   public pangkat(): number {
+    return this.nilaiAwal ** this.nilaiKedua
+  }
 }
