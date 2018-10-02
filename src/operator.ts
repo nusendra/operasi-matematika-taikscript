@@ -2,7 +2,7 @@ export default class Operator {
   nilaiAwal: number;
   nilaiKedua: number;
 
-  constructor(nilaiAwal: number, nilaiKedua: number) {
+  constructor(nilaiAwal: number, nilaiKedua: number = 0) {
     this.nilaiAwal = nilaiAwal;
     this.nilaiKedua = nilaiKedua;
   }
@@ -21,5 +21,9 @@ export default class Operator {
 
   public bagi(): number {
     return this.nilaiAwal / this.nilaiKedua
+  }
+
+  public pangkat(): number {
+    return Math.pow(this.nilaiAwal, this.nilaiKedua);
   }
 }
