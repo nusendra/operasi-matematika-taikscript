@@ -14,8 +14,12 @@ export default class Operator {
   public kurang(): number {
     return this.nilaiAwal - this.nilaiKedua;
   }
-  
+
   public kali(): number {
     return this.nilaiAwal * this.nilaiKedua;
+  }
+
+  public bagi(): number {
+    return this.nilaiAwal / this.nilaiKedua
   }
 }
