@@ -40,6 +40,6 @@ console.log(hitung.tambah());
 
 https://t.me/nusendra
 
-## 6. Contact
+## Contact
 
 911
