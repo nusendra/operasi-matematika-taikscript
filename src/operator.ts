@@ -26,4 +26,12 @@ export default class Operator {
   public pangkat(): number {
     return Math.pow(this.nilaiAwal, this.nilaiKedua);
   }
+
+  public akar(): number {
+    return Math.pow(this.nilaiAwal, 1/this.nilaiKedua);
+  }
+
+  public phi(): number {
+    return (22 * this.nilaiAwal) / 7;
+  }
 }
